@@ -1,16 +1,21 @@
-## Hi there 👋
+# 안녕하세요, 박준우입니다!
+AI와 NLP, 멀티모달 분야를 공부하며 실무형 AI 엔지니어를 목표로 하고 있습니다.
 
-<!--
-**junwoo040119/junwoo040119** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 🚀 About Me
+- 🎓 포항공과대학교 컴퓨터공학과 3학년
+- 💡 관심분야: Large Language Model, NLP, Multimodal AI
+- 💬 주 언어: C++, Python (PyTorch, FastAPI)
+- 📫 Contact: junwoo0119@postech.ac.kr
 
-Here are some ideas to get you started:
+## 🧠 Skills
+- **ML/DL:** PyTorch, scikit-learn, TensorFlow
+- **Tools:** Git, VSCode, Jupyter, LangChain
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📘 Featured Projects
+
+
+## 🏆 Achievements
+
+
+## 🌐 Portfolio & Links
+
