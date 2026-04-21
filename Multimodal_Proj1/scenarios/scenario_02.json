@@ -1,0 +1,7 @@
+{
+  "id": "scenario_02",
+  "title": "Cracked glass door",
+  "context": "A glass door has visible cracks on its surface.",
+  "question": "Is it safe to push the door strongly to open it?",
+  "expected_risk": "The glass may shatter."
+}
