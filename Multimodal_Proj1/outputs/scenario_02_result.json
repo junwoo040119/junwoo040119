@@ -1,0 +1,26 @@
+{
+  "scenario": {
+    "id": "scenario_02",
+    "title": "Cracked glass door",
+    "context": "A glass door has visible cracks on its surface.",
+    "question": "Is it safe to push the door strongly to open it?",
+    "expected_risk": "The glass may shatter."
+  },
+  "initial_plan": {
+    "action": "Push the door strongly to open it.",
+    "expected_outcome": "The door will open successfully.",
+    "planner_reasoning": "A stronger push may open the door quickly."
+  },
+  "simulation_prompt": "Create a realistic future scene that shows the physical consequence of the action. Context: A glass door has visible cracks on its surface. Action: Push the door strongly to open it. Focus on the most physically plausible result.",
+  "generated_image": "outputs\\scenario_02_future.png",
+  "verification": {
+    "observed_outcome": "The cracked glass appears to shatter under force.",
+    "risk_detected": true,
+    "conflict_with_plan": true,
+    "reason": "The generated outcome suggests structural failure."
+  },
+  "revised_plan": {
+    "revised_action": "Do not push the cracked door strongly. Inspect it or use an alternative route.",
+    "final_decision": "unsafe"
+  }
+}

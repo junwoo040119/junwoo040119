@@ -1,0 +1,26 @@
+{
+  "scenario": {
+    "id": "scenario_03",
+    "title": "Unstable stacked objects",
+    "context": "Several heavy boxes are stacked unevenly on top of each other.",
+    "question": "Is it safe to pull the bottom box out?",
+    "expected_risk": "The stacked boxes may collapse."
+  },
+  "initial_plan": {
+    "action": "Pull the bottom box out carefully.",
+    "expected_outcome": "The target box will be removed without issue.",
+    "planner_reasoning": "A careful pull may work."
+  },
+  "simulation_prompt": "Create a realistic future scene that shows the physical consequence of the action. Context: Several heavy boxes are stacked unevenly on top of each other. Action: Pull the bottom box out carefully. Focus on the most physically plausible result.",
+  "generated_image": "outputs\\scenario_03_future.png",
+  "verification": {
+    "observed_outcome": "The stacked boxes appear to collapse after removing the bottom box.",
+    "risk_detected": true,
+    "conflict_with_plan": true,
+    "reason": "The simulated future shows instability in the stack."
+  },
+  "revised_plan": {
+    "revised_action": "Do not pull the bottom box. Stabilize the stack first or unload top boxes.",
+    "final_decision": "unsafe"
+  }
+}
