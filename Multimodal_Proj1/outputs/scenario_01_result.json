@@ -1,0 +1,26 @@
+{
+  "scenario": {
+    "id": "scenario_01",
+    "title": "Glass cup near table edge",
+    "context": "A glass cup is placed very close to the edge of a table.",
+    "question": "Is it safe to push the cup slightly to the right?",
+    "expected_risk": "The cup may fall off the table."
+  },
+  "initial_plan": {
+    "action": "Push the cup slightly to the right.",
+    "expected_outcome": "The cup will remain stable on the table.",
+    "planner_reasoning": "A small movement seems manageable."
+  },
+  "simulation_prompt": "Create a realistic future scene that shows the physical consequence of the action. Context: A glass cup is placed very close to the edge of a table. Action: Push the cup slightly to the right. Focus on the most physically plausible result.",
+  "generated_image": "outputs\\scenario_01_future.png",
+  "verification": {
+    "observed_outcome": "The cup appears to be falling off the table.",
+    "risk_detected": true,
+    "conflict_with_plan": true,
+    "reason": "The simulated future contradicts the assumption that the cup remains stable."
+  },
+  "revised_plan": {
+    "revised_action": "Do not push the cup to the right. Move it inward away from the edge.",
+    "final_decision": "unsafe"
+  }
+}
