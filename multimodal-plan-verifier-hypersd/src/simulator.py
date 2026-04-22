@@ -3,7 +3,7 @@ import torch
 from diffusers import StableDiffusionPipeline
 
 from config import (
-    OUTPUT_DIR,  # 🔥 추가
+    OUTPUT_DIR,
     SIMULATOR_BACKEND,
     DIFFUSION_MODEL_ID,
     HYPERSD_LORA_ID,
