@@ -2,7 +2,7 @@ import argparse
 import json
 from pathlib import Path
 
-from config import OUTPUT_DIR  # 🔥 추가
+from config import OUTPUT_DIR
 from src.utils import load_json, save_json
 from src.planner import generate_plan, unload_planner
 from src.prompt_builder import build_simulation_prompt
@@ -41,7 +41,6 @@ def run_pipeline(scenario_path: str) -> dict:
         "revised_plan": revised,
     }
 
-    # 🔥 여기 핵심 수정
     output_path = OUTPUT_DIR / f'{scenario["id"]}_result.json'
     save_json(result, output_path)
 
