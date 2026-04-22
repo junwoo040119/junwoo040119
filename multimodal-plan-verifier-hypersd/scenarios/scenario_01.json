@@ -1,0 +1,7 @@
+{
+  "id": "scenario_01",
+  "title": "Glass cup near table edge",
+  "context": "A glass cup is placed very close to the edge of a table.",
+  "question": "Is it safe to push the cup slightly to the right?",
+  "expected_risk": "The cup may fall off the table."
+}

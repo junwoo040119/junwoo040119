@@ -1,0 +1,27 @@
+{
+  "scenario": {
+    "id": "scenario_03",
+    "title": "Unstable stacked objects",
+    "context": "Several heavy boxes are stacked unevenly on top of each other.",
+    "question": "Is it safe to pull the bottom box out?",
+    "expected_risk": "The stacked boxes may collapse."
+  },
+  "initial_plan": {
+    "action": "Attempt to pull the bottom box out carefully",
+    "expected_outcome": "The stack may shift or collapse if the boxes are not securely stacked, potentially causing injury or damage to the pulled box and others.",
+    "planner_reasoning": "Given the uneven stacking of the heavy boxes, there is a risk that pulling out the bottom box could destabilize the entire stack, leading to potential hazards such as shifting or collapsing of the boxes."
+  },
+  "simulation_prompt": "Realistic future scene, photorealistic, physically plausible, clear visible consequence of the action. Scene: Several heavy boxes are stacked unevenly on top of each other. Action: Attempt to pull the bottom box out carefully Show: unstable stacked heavy boxes, after the bottom box is pulled, showing collapse and falling objects. Emphasize instability, motion aftermath, and visible physical outcome.",
+  "generated_image": "C:\\Users\\junwo\\AI\\ML_DL\\Project1\\multimodal-plan-verifier-hypersd\\outputs\\scenario_03_future.png",
+  "verification": {
+    "observed_outcome": "Several heavy cardboard boxes are stacked unevenly on a blue carpeted floor.",
+    "risk_detected": true,
+    "conflict_with_plan": true,
+    "reason": "The boxes are not securely stacked, which could lead to shifting or collapsing if the bottom box is pulled out."
+  },
+  "revised_plan": {
+    "revised_action": "Do not pull the bottom box directly. Stabilize the stack first or remove upper boxes before moving the lower one.",
+    "final_decision": "unsafe",
+    "revision_reason": "The original plan was revised because the simulated future showed: Several heavy cardboard boxes are stacked unevenly on a blue carpeted floor.. Verification reason: The boxes are not securely stacked, which could lead to shifting or collapsing if the bottom box is pulled out."
+  }
+}

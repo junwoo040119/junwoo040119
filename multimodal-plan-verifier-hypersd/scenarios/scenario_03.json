@@ -1,0 +1,7 @@
+{
+  "id": "scenario_03",
+  "title": "Unstable stacked objects",
+  "context": "Several heavy boxes are stacked unevenly on top of each other.",
+  "question": "Is it safe to pull the bottom box out?",
+  "expected_risk": "The stacked boxes may collapse."
+}

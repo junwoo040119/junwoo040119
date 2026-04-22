@@ -1,0 +1,27 @@
+{
+  "scenario": {
+    "id": "scenario_01",
+    "title": "Glass cup near table edge",
+    "context": "A glass cup is placed very close to the edge of a table.",
+    "question": "Is it safe to push the cup slightly to the right?",
+    "expected_risk": "The cup may fall off the table."
+  },
+  "initial_plan": {
+    "action": "Attempt to gently push the cup to the right",
+    "expected_outcome": "The cup should remain stable and not fall off the table",
+    "planner_reasoning": "Given the cup's proximity to the edge of the table, any slight push to the right will likely be insufficient to overcome the gravitational pull and the friction between the cup and the table surface, thus maintaining the cup's stability."
+  },
+  "simulation_prompt": "Realistic future scene, photorealistic, physically plausible, clear visible consequence of the action. Scene: A glass cup is placed very close to the edge of a table. Action: Attempt to gently push the cup to the right Show: a glass cup near the edge of a table, after being pushed to the right, tipping over or falling off the edge. Emphasize instability, motion aftermath, and visible physical outcome.",
+  "generated_image": "C:\\Users\\junwo\\AI\\ML_DL\\Project1\\multimodal-plan-verifier-hypersd\\outputs\\scenario_01_future.png",
+  "verification": {
+    "observed_outcome": "A glass cup is placed very close to the edge of a table.",
+    "risk_detected": false,
+    "conflict_with_plan": false,
+    "reason": "The cup appears to be stable and not at risk of falling."
+  },
+  "revised_plan": {
+    "revised_action": "Attempt to gently push the cup to the right",
+    "final_decision": "safe",
+    "revision_reason": "The simulated future is consistent with the original plan."
+  }
+}

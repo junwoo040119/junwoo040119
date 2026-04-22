@@ -1,0 +1,27 @@
+{
+  "scenario": {
+    "id": "scenario_02",
+    "title": "Cracked glass door",
+    "context": "A glass door has visible cracks on its surface.",
+    "question": "Is it safe to push the door strongly to open it?",
+    "expected_risk": "The glass may shatter."
+  },
+  "initial_plan": {
+    "action": "Attempt to push the door strongly and observe if it breaks or remains intact.",
+    "expected_outcome": "The door either breaks immediately or remains intact without any immediate damage.",
+    "planner_reasoning": "Given the presence of visible cracks, pushing the door forcefully could cause the cracks to widen, potentially leading to structural failure and the door breaking. The integrity of the door hinges and overall construction will also play a role in determining safety."
+  },
+  "simulation_prompt": "Realistic future scene, photorealistic, physically plausible, clear visible consequence of the action. Scene: A glass door has visible cracks on its surface. Action: Attempt to push the door strongly and observe if it breaks or remains intact. Show: a cracked glass door, after being pushed strongly, showing visible fracture expansion or shattering. Emphasize instability, motion aftermath, and visible physical outcome.",
+  "generated_image": "C:\\Users\\junwo\\AI\\ML_DL\\Project1\\multimodal-plan-verifier-hypersd\\outputs\\scenario_02_future.png",
+  "verification": {
+    "observed_outcome": "A glass door with visible cracks on its surface.",
+    "risk_detected": true,
+    "conflict_with_plan": true,
+    "reason": "The presence of visible cracks indicates potential structural weakness, which could lead to the door breaking under pressure."
+  },
+  "revised_plan": {
+    "revised_action": "Do not push the cracked glass door strongly. Reduce force, inspect the damage first, or choose a safer alternative path.",
+    "final_decision": "unsafe",
+    "revision_reason": "The original plan was revised because the simulated future showed: A glass door with visible cracks on its surface.. Verification reason: The presence of visible cracks indicates potential structural weakness, which could lead to the door breaking under pressure."
+  }
+}
