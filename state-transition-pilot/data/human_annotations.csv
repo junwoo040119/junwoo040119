@@ -1,2 +1,6 @@
 annotator_id,sample_id,prompt_id,model,seed,video_path,prompt_understood,target_state_achieved,wrong_state_transition,same_scene_preserved,perceptual_quality_ok,overall_failure_type,confidence,comment
-
+junwoo,cut_move_apple_cut_pika_seed1,cut_move_apple_cut,pika_2.5,1,videos/cut_move_apple_cut_pika_seed1.mp4,,,,,,,,
+junwoo,cut_move_apple_move_pika_seed1,cut_move_apple_move,pika_2.5,1,videos/cut_move_apple_move_pika_seed1.mp4,,,,,,,,
+junwoo,cut_move_paper_cut_pika_seed1,cut_move_paper_cut,pika_2.5,1,videos/cut_move_paper_cut_pika_seed1.mp4,,,,,,,,
+junwoo,cut_move_paper_move_pika_seed1,cut_move_paper_move,pika_2.5,1,videos/cut_move_paper_move_pika_seed1.mp4,,,,,,,,
+junwoo,cut_move_cloth_cut_pika_seed1,cut_move_cloth_cut,pika_2.5,1,videos/cut_move_cloth_cut_pika_seed1.mp4,,,,,,,,
