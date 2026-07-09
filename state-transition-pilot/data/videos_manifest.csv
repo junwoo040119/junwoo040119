@@ -1,0 +1,10 @@
+sample_id,prompt_id,model,seed,video_path,generated_at,notes
+cut_move_apple_cut_modelA_seed1,cut_move_apple_cut,modelA,1,videos/cut_move_apple_cut_modelA_seed1.mp4,,
+cut_move_apple_move_modelA_seed1,cut_move_apple_move,modelA,1,videos/cut_move_apple_move_modelA_seed1.mp4,,
+cut_move_paper_cut_modelA_seed1,cut_move_paper_cut,modelA,1,videos/cut_move_paper_cut_modelA_seed1.mp4,,
+cut_move_paper_move_modelA_seed1,cut_move_paper_move,modelA,1,videos/cut_move_paper_move_modelA_seed1.mp4,,
+melt_warm_butter_melt_modelA_seed1,melt_warm_butter_melt,modelA,1,videos/melt_warm_butter_melt_modelA_seed1.mp4,,
+melt_warm_butter_warm_modelA_seed1,melt_warm_butter_warm,modelA,1,videos/melt_warm_butter_warm_modelA_seed1.mp4,,
+melt_warm_chocolate_melt_modelA_seed1,melt_warm_chocolate_melt,modelA,1,videos/melt_warm_chocolate_melt_modelA_seed1.mp4,,
+melt_warm_chocolate_warm_modelA_seed1,melt_warm_chocolate_warm,modelA,1,videos/melt_warm_chocolate_warm_modelA_seed1.mp4,,
+

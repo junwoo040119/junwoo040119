@@ -1,0 +1,9 @@
+videos/*
+!videos/.gitkeep
+results/*
+!results/.gitkeep
+*.mp4
+*.mov
+*.webm
+*.avi
+
