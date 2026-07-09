@@ -1,6 +1,6 @@
 annotator_id,sample_id,prompt_id,model,seed,video_path,prompt_understood,target_state_achieved,wrong_state_transition,same_scene_preserved,perceptual_quality_ok,overall_failure_type,confidence,comment
-junwoo,cut_move_apple_cut_pika_seed1,cut_move_apple_cut,pika_2.5,1,videos/cut_move_apple_cut_pika_seed1.mp4,,,,,,,,
-junwoo,cut_move_apple_move_pika_seed1,cut_move_apple_move,pika_2.5,1,videos/cut_move_apple_move_pika_seed1.mp4,,,,,,,,
-junwoo,cut_move_paper_cut_pika_seed1,cut_move_paper_cut,pika_2.5,1,videos/cut_move_paper_cut_pika_seed1.mp4,,,,,,,,
-junwoo,cut_move_paper_move_pika_seed1,cut_move_paper_move,pika_2.5,1,videos/cut_move_paper_move_pika_seed1.mp4,,,,,,,,
-junwoo,cut_move_cloth_cut_pika_seed1,cut_move_cloth_cut,pika_2.5,1,videos/cut_move_cloth_cut_pika_seed1.mp4,,,,,,,,
+junwoo,cut_move_apple_cut_pika_seed1,cut_move_apple_cut,pika_2.5,1,videos/cut_move_apple_cut_pika_seed1.mp4,1,1,0,1,1,none,5,Visible apple cut state is achieved; final frame shows separated apple pieces.
+junwoo,cut_move_apple_move_pika_seed1,cut_move_apple_move,pika_2.5,1,videos/cut_move_apple_move_pika_seed1.mp4,1,0,0,1,1,no_clear_position_change,4,"Apple remains intact, but the position change is not clearly achieved."
+junwoo,cut_move_paper_cut_pika_seed1,cut_move_paper_cut,pika_2.5,1,videos/cut_move_paper_cut_pika_seed1.mp4,1,1,0,1,1,none,5,Final frame clearly shows the sheet separated into two pieces.
+junwoo,cut_move_paper_move_pika_seed1,cut_move_paper_move,pika_2.5,1,videos/cut_move_paper_move_pika_seed1.mp4,1,0,0,1,1,no_clear_position_change,4,"Sheet remains intact, but the position change is minimal or unclear."
+junwoo,cut_move_cloth_cut_pika_seed1,cut_move_cloth_cut,pika_2.5,1,videos/cut_move_cloth_cut_pika_seed1.mp4,1,0,0,1,1,no_visible_cut_or_separation,5,"Scissors interact with the cloth, but no clearly cut or separated cloth sections appear."
