@@ -36,7 +36,7 @@ state-transition-pilot/
 
 ## Quick Start
 
-1. Generate videos from `data/prompts.csv` using any model or web UI.
+1. Generate videos from `data/prompts.csv` using any model or web UI. For the first manual batch, use `docs/web_generation_batch_01.md`.
 2. Save videos locally under `videos/` or another path.
 3. Fill `video_path`, `model`, and `seed` in `data/videos_manifest.csv`.
 4. Create an annotation template:
@@ -79,4 +79,3 @@ The pilot is useful if it can show at least one of these:
 - A case where perceptual quality is acceptable but target state is wrong.
 - Human annotations agree enough to support a larger benchmark.
 - The VLM-judge rubric can reproduce the human ranking for a small subset.
-
